@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <title>Redirecting to eScholarship...</title>
+  <script async defer data-domain="inventive-2025.github.io" src="https://plausible.io/js/script.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      text-align: center;
+      margin-top: 100px;
+      color: #333;
+    }
+    a {
+      color: #0070f3;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body onload="delayedRedirect()">
+  <h2>Redirecting to the book…</h2>
+  <p>If nothing happens, <a href="https://escholarship.org/uc/item/66r437rg#main">click here</a>.</p>
 
+  <script>
+    plausible('redirect_uk_started');
+    function delayedRedirect() {
+      setTimeout(function () {
+        window.location.href = "https://escholarship.org/uc/item/66r437rg#main";
+      }, 2000);
+    }
+  </script>
+</body>
+</html>
